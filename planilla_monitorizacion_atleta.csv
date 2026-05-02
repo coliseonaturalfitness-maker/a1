@@ -1,0 +1,8 @@
+Fecha,Atleta,Peso_kg,Sueno_h,Calidad_Sueno_1_5,RPE_1_10,Duracion_min,Carga_Interna,RHR_bpm,HRV_ms,Dolor_Muscular_1_10,Estres_1_10,Estado_Animo_1_5,Readiness_1_10,Lesion_Molestia,Notas
+2026-05-01,,,,,,,'=F2*G2',,,,,,,,
+2026-05-02,,,,,,,'=F3*G3',,,,,,,,
+2026-05-03,,,,,,,'=F4*G4',,,,,,,,
+2026-05-04,,,,,,,'=F5*G5',,,,,,,,
+2026-05-05,,,,,,,'=F6*G6',,,,,,,,
+2026-05-06,,,,,,,'=F7*G7',,,,,,,,
+2026-05-07,,,,,,,'=F8*G8',,,,,,,,

@@ -1,0 +1,7 @@
+Metrica,Formula_Excel,Interpretacion
+Carga_Aguda_7d,"=SUMIFS(Datos!H:H,Datos!A:A,\">=""&TODAY()-6,Datos!A:A,""<=""&TODAY())",Carga acumulada de los últimos 7 días
+Carga_Cronica_28d,"=SUMIFS(Datos!H:H,Datos!A:A,\">=""&TODAY()-27,Datos!A:A,""<=""&TODAY())",Carga acumulada de los últimos 28 días
+ACWR,"=[@Carga_Aguda_7d]/([@Carga_Cronica_28d]/4)",Ratio para gestionar el riesgo por cambios bruscos
+Promedio_Readiness_7d,"=AVERAGEIFS(Datos!N:N,Datos!A:A,\">=""&TODAY()-6,Datos!A:A,""<=""&TODAY())",Estado de forma percibido de la última semana
+Promedio_Sueno_7d,"=AVERAGEIFS(Datos!D:D,Datos!A:A,\">=""&TODAY()-6,Datos!A:A,""<=""&TODAY())",Recuperación general
+Bandera_Riesgo,"=IF([@ACWR]>1.5,""ALTO"",IF([@ACWR]<0.8,""BAJO"",""OPTIMO""))",Semáforo de toma de decisión
