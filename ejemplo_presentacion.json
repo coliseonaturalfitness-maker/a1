@@ -1,0 +1,20 @@
+{
+  "slides": [
+    {
+      "title": "Creador de presentación PPT",
+      "bullets": [
+        "Generación automática desde JSON",
+        "Fácil de personalizar",
+        "Salida en formato .pptx"
+      ]
+    },
+    {
+      "title": "Siguientes pasos",
+      "bullets": [
+        "Instalar dependencias",
+        "Editar el JSON",
+        "Ejecutar el script"
+      ]
+    }
+  ]
+}
